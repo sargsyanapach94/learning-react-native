@@ -14,7 +14,7 @@ public class MainActivity extends DetachActivity {
 
   @Override
   public String publishedUrl() {
-    return "exp://exp.host/@s_sargsyan/learning-react-native";
+    return "exp://exp.host/@s_sargsyan/test-project";
   }
 
   @Override

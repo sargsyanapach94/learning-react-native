@@ -11,9 +11,9 @@ import host.exp.exponent.Constants;
 @DoNotStrip
 public class AppConstants {
 
-  public static final String VERSION_NAME = "2.10.7";
-  public static String INITIAL_URL = "exp://exp.host/@s_sargsyan/learning-react-native";
-  public static final String SHELL_APP_SCHEME = "exp124f72debd634cb4a5e7487ce9464635";
+  public static final String VERSION_NAME = "2.10.6";
+  public static String INITIAL_URL = "exp://exp.host/@s_sargsyan/test-project";
+  public static final String SHELL_APP_SCHEME = "expf0be7a59397145a68bd8c0b64c046a36";
   public static final String RELEASE_CHANNEL = "default";
   public static boolean SHOW_LOADING_VIEW_IN_SHELL_APP = true;
   public static boolean ARE_REMOTE_UPDATES_ENABLED = true;

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Learn React NAtive",
-    "slug": "learning-react-native",
+    "name": "Test Project",
+    "slug": "test-project",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,17 +24,17 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "learning"
+      "bundleIdentifier": "test.project"
     },
     "android": {
-      "package": "learning.react.native",
-      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
-      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+      "package": "test.project",
+      "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
+      "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
     },
     "isDetached": true,
     "detach": {
-      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.7-sdk32.0.0-3ff7f3bf-8e53-4d61-b963-1d7d92a77d79.tar.gz"
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.6-sdk32.0.0-83a07c97-312f-4bbf-8b19-5c609bc3c386.tar.gz"
     },
-    "scheme": "exp124f72debd634cb4a5e7487ce9464635"
+    "scheme": "expf0be7a59397145a68bd8c0b64c046a36"
   }
 }
