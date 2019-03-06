@@ -1,6 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { connect } from "react-redux";
+import  ClientActions from './ClientActions'
 
 class ClientItem extends React.Component {
   render() {
@@ -8,6 +9,8 @@ class ClientItem extends React.Component {
       <View style={styles.row}>
         <Text style={styles.col}> {this.props.client.name} </Text>
         <Text style={styles.col}> {this.props.client.email} </Text>
+        <Text style={styles.col}> {this.props.client.providers.length} </Text>
+        <View><ClientActions/></View>
       </View>
     );
   }
@@ -15,14 +18,12 @@ class ClientItem extends React.Component {
 
 const styles = StyleSheet.create({
   row: {
-    borderWidth: 1.5,
-    borderColor: "#d6d7da",
-    height: 50
-    // flex: 1,
-    // flexDirection: "row"
+    flexDirection: "row"
   },
   col: {
-    height: 50,
+    borderWidth: 1.5,
+    borderColor: "#d6d7da",
+    flex: 1,
     backgroundColor: "powderblue"
   }
 });

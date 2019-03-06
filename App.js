@@ -20,15 +20,14 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: "column",
-    backgroundColor: "#fff"
-  },
-  header: {
-    height: 30
-  },
-  content: {
-    height: 500
-  }
+  // container: {
+  //   backgroundColor: "#fff"
+  // },
+  // header: {
+  //   height: 30
+  // },
+  // content: {
+  //   flex: 1,
+  //   height: 500
+  // }
 });

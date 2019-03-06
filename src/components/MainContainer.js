@@ -11,13 +11,15 @@ export default class MainContainer extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Some description !!!</Text>
-        <ClientsList> </ClientsList>
+        <ClientsList style={styles.clientsList}> </ClientsList>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {}
+  // container: {
+  //   flex: 1
+  // },
+  // clientsList: { flex: 1 }
 });

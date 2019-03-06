@@ -11,14 +11,20 @@ class ClientsList extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View style={{flex: 1}}>
         <Text>
           We have {this.props.clients.length}
           friends!
         </Text>
-        {this.props.clients.map(client => (
-          <ClientItem key={client._id} client={client} />
-        ))}
+        <View style={styles.container}>
+          {this.props.clients.map(client => (
+            <ClientItem
+              key={client._id}
+              style={styles.clientItem}
+              client={client}
+            />
+          ))}
+        </View>
       </View>
     );
   }
@@ -29,10 +35,13 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     borderWidth: 1.5,
     borderColor: "#d6d7da",
+    height: 200,
+    flexDirection: "column",
+    justifyContent: "flex-start"
+  },
+  clientItem: {
     // flex: 1,
-    // flexDirection: "column",
-    // justifyContent: "center",
-    // alignItems: "stretch"
+    // height: 10
   }
 });
 
